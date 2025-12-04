@@ -2,6 +2,30 @@
 
 A Chrome extension that intercepts Google Calendar "Add to Calendar" links and redirects them to a configurable handler URL with all query parameters preserved.
 
+## Why This Extension Exists
+
+Many websites offer "Add to Calendar" links that redirect users to Google Calendar. However, if you're building your own event management web application, you want these links to go to your app instead. This extension bridges that gap by intercepting Google Calendar links and redirecting them to your custom handler, allowing you to build a centralized event management system.
+
+## How It Works
+
+**Build Your Own Event Management System**
+
+This extension enables you to create a custom web application for managing events. Instead of events being added directly to Google Calendar, they're redirected to your application where you can:
+
+- Store events in your own database
+- Apply custom business logic
+- Integrate with your existing systems
+- Provide a unified event management interface
+- Add events from any website that uses Google Calendar links
+
+**How It Works with "Add to Calendar" Links**
+
+1. **User clicks "Add to Calendar"** on any website (event listings, booking systems, etc.)
+2. **Extension intercepts** the Google Calendar link before it loads
+3. **Extracts all event data** (title, date, time, location, description, etc.)
+4. **Redirects to your web app** with all parameters preserved
+5. **Your app receives the event data** and can process it however you need
+
 ## Features
 
 - Intercepts Google Calendar `calendar.google.com/calendar/render?action=TEMPLATE` links

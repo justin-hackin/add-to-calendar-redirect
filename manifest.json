@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Calendar Chooser",
   "version": "1.0",
-  "description": "Intercept Google Calendar add-to links and present a chooser.",
+  "description": "Redirects Google Calendar 'Add to Calendar' links to your custom event handler, enabling you to build your own event management system.",
   "permissions": [
     "declarativeNetRequest",
     "storage",
