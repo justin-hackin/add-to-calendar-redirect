@@ -1,0 +1,17 @@
+# Chrome Extension
+_metadata/
+*.pem
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Node modules (if you add any build tools)
+node_modules/
