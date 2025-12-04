@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/chooser.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "calendar.google.com/calendar/render?action=TEMPLATE",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]
