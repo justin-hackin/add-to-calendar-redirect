@@ -15,3 +15,6 @@ _metadata/
 
 # Node modules (if you add any build tools)
 node_modules/
+
+# Build artifacts
+extension.zip
